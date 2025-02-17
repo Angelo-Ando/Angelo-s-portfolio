@@ -114,7 +114,7 @@ img {
 }
 
 @keyframes bgcolor {
-  0% {background-color: coral;}
+  0% {background-color: plum;}
   25% {background-color: aliceblue;}
   50% {background-color: palegreen;}
   75% {background-color: coral;}
