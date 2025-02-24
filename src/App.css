@@ -12,38 +12,28 @@ body {
   text-align: center;
 }
 
-body {
-  background-color: cornflowerblue;
-  animation: bgcolor 10s infinite;
+.Angelo {
+  color: red;
+  animation: angelo 1s infinite; 
+}
+@keyframes angelo {
+  0% {color: black;}
+  100% {color:red;}
 }
 
-.ParentContainer {
-  position: relative;
-}
-
-h1 {
+.Apph1 {
   font-size: 3.2em;
-}
-
-h2 {
-  font-size: 2em;
-}
-
-.gelo {
-  width: 15%; 
-  height: 15%;
-  border-radius: 50%;
-}
-
-.gelo2 {
-  height: 91%;
-  width: 15%;
-  border-radius: 50%;
   position: absolute;
-  top: 0%;
-  right: 42%;
-  opacity: 100%;
-  animation: gelo-animation 7s infinite;
+  top: 35%;
+}
+
+.first-container {
+  height: 20%;
+  width: 80%;
+}
+
+.Images {
+  height: 100px;
 }
 
 img {
@@ -52,7 +42,7 @@ img {
   margin: 0.5%;
 }
 
-/*button {
+button {
   width: 15%;
   border-radius: 8px;
   border: 1px solid;
@@ -60,63 +50,188 @@ img {
   cursor: pointer;
   margin-top: 2%;
   font-size: large;
-}*/
+}
 
-.hoverimage1 {
+.gelo1, .gelo2 {
   position: absolute;
-  height: 33%;
-  width: 16.9%;
-  bottom: 0%;
-  left: 23.5%;
-  animation: hv1 7s infinite;
+  width: 15%;
+  height: 30%;
+  object-fit: cover;
+  border-radius: 50%;
+  top: 13%;
+  left: 42%;
+}
+.gelo2 {
+  animation: fadeImage 5s infinite;
+}
+@keyframes fadeImage {
+  0%  {opacity: 100%;}
+  50% {opacity: 0%;}
+  100% {opcity: 100%;}
 }
 
-.hoverimage2 {
+.div1img, .div2img {
+  left: 3%;
+  bottom: 0%;
+}
+.div1img {
+  animation: div1img 10s infinite;
+}
+.div2img {
+  animation: div2img 10s infinite;
+}
+@keyframes div1img {
+  0%  {opacity: 0%;}
+  50% {opacity: 100%;}
+  100% {opacity: 0%;}
+}
+@keyframes div2img {
+  0%  {opacity: 100%;}
+  50% {opacity: 0%;}
+  100% {opacity: 100%;}
+}
+
+body {
+  background: lightblue;
+  animation: bg 10s infinite;
+}
+@keyframes bg {
+  0% {background: lightblue;}
+  25% {background: lightcyan;}
+  50% {background: lightgreen;}
+  75% {background: lightcyan}
+  100% {background: lightblue;}
+}
+
+.AboutMe {
+  font-size: xx-large;
+  text-decoration: underline;
+  animation: aboutme 1s infinite;
+}
+@keyframes aboutme {
+  0% {color:black;}
+  100% {color:yellow;}
+}
+
+.p1 {
   position: absolute;
-  height: 38.5%;
-  width: 16.9%;
-  bottom: 0%;
-  left: 41.1%;
-  animation: hv2 7s infinite;
+  top: 0%;
+  left: 1%;
 }
 
-.hoverimage3 {
-  position: absolute;
-  height: 32.5%;
-  width: 16.5%;
-  bottom: 0%;
-  left: 59%;
-  animation: hv3 7s infinite;
+/*About Me */
+
+.contest-container img {
+  width: 20%;
+  height: 20%;
+}
+.Backbtn {
+position: absolute;
+top: 0%;
+left: 0%;
+margin: 5px;
+}
+.Display h2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.image-display, .ani-display, .fe-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px dashed white;
+  border-radius: 50%;
+}
+.image-display {
+background-color: pink;
+animation: pgt1 2s infinite;
+}
+.ani-display {
+background-color: palegreen;
+animation: pgt2 2s infinite;
+}
+.fe-display {
+background-color: paleturquoise;
+animation: pgt3 2s infinite;
 }
 
-@keyframes gelo-animation {
-  0%  {opacity: 100%;}
-  50% {opacity: 0%;}
-  100% {opcity: 100%;}
+.fe-display img {
+width: 45%;
+height: 45%;
+}
+video {
+  border-radius: 15px;
+}
+.super-table {
+  width: 600px;
+  height: 300px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+.super-table th, .super-table td {
+  width: 350px;
+  border: 2px solid black;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.super-table td {
+text-align: left;
+font-size: larger;
 }
 
-@keyframes hv1 {
-  0%  {opacity: 100%;}
-  50% {opacity: 0%;}
-  100% {opcity: 100%;}
+.THead1 {
+  background-color: pink;
+  animation: pgt1 2s infinite;
+}
+.THead2 {
+  background-color: palegreen;
+  animation: pgt2 2s infinite;
+}
+.THead3 {
+  background-color: paleturquoise;
+  animation: pgt3 2s infinite;
 }
 
-@keyframes hv2 {
-  0%  {opacity: 100%;}
-  50% {opacity: 0%;}
-  100% {opcity: 100%;}
+.Action {
+  width: 110%;
+}
+.Action button {
+  margin: 1%;
+  font-size: larger;
+  font-family: monospace;
+}
+.Bt1 {
+  background-color: paleturquoise;
+  animation: pgt3 2s infinite;
+}
+.Bt2 {
+  background-color: palegreen;
+  animation: pgt2 2s infinite;
+}
+.Bt3 {
+  background-color: pink;
+  animation: pgt1 2s infinite;
 }
 
-@keyframes hv3 {
-  0%  {opacity: 100%;}
-  50% {opacity: 0%;}
-  100% {opcity: 100%;}
+iframe {
+  border-radius: 10%;
 }
 
-@keyframes bgcolor {
-  0% {background-color: plum;}
-  25% {background-color: aliceblue;}
+@keyframes pgt1 {
+  25% {background-color: pink;}
   50% {background-color: palegreen;}
-  75% {background-color: coral;}
-  100% {background-color: plum;}
+  75% {background-color: paleturquoise}
+}
+@keyframes pgt2 {
+  25% {background-color: palegreen;}
+  50% {background-color: paleturquoise;}
+  75% {background-color: pink}
+}
+@keyframes pgt3 {
+  25% {background-color: paleturquoise;}
+  50% {background-color: pink;}
+  75% {background-color: palegreen;}
 }
