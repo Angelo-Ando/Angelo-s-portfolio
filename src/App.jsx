@@ -29,7 +29,7 @@ function handleClick () {
         </a>
 
         <h1>Hi, I'm Angelo!</h1>
-        <h2>look at my fanarts!</h2>
+        <h2>look at my fanarts!!</h2>
 
         <div classname="Image">
           <img src={image2}/>
