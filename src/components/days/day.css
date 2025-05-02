@@ -1,0 +1,101 @@
+.div-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    border: 1px solid #00ff90;
+}
+.div-wrapper{
+    margin-bottom: 1rem;
+}
+.div-wrapper p {
+    max-width: 1000px;
+}
+
+.div-carousel{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/*
+img-wide are divs that contain two 2048x1536 images 
+img-tall are divs that contain one or two 1536x2048 images
+img-single-large are divs that contain one 2048x1536 image
+img-single-wide are divs that contain one 2048x1152 image
+img-single-small is one div that contains a 2048x1536 image and a paragraph
+*/
+
+.img-wide {
+    margin-top: 14%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.img-tall {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.img-single-large {
+    padding-top: 5%;
+}
+.img-single-large img {
+    max-width: 70%;
+}
+
+.img-single-small {
+    padding-top: 4%;
+}
+.img-single-small img {
+    max-width: 60%;
+}
+
+.img-single-wide {
+    padding-top: 6%;
+}
+.img-single-wide img {
+    max-width: 90%;
+}
+
+.sbp-1{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+@media (max-width: 768px) {
+    .fortSantiago-wrapper .fortSantiago-carousel{
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin: 0;
+    }
+    .img-wide, .img-tall {
+        padding: 0;
+    }
+    .fortSantiago-carousel img, .nh1-carousel img {
+        max-width: 45%;
+        height: auto;
+    }
+    .fortSantiago-carousel .img-tall, .nh1-carousel .img-tall {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .fortSantiago-wrapper .img-single-small {
+        padding-top: 5rem;
+    }
+    .fortSantiago-wrapper .img-single-small p{
+        font-size: medium;
+    }
+}

@@ -1,118 +1,203 @@
-
-
 body {
   margin: 0;
   display: flex;
   text-align: center;
-  min-width: 320px;
-  min-height: 100vh;
-  background-color: lightgoldenrodyellow;
-  animation: body-ani 5s infinite;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  background: linear-gradient(180deg, black 0%, #001100 100%);
+  color: #00ff90;
 }
-@keyframes body-ani {
-  0% {background-color: lightgoldenrodyellow;}
-  25% {background-color: pink;}
-  50% {background-color: lightcyan;}
-  75% {background-color: lightgreen;}
-  100% {background-color: lightgoldenrodyellow;}
+
+body, html {
+  overflow-x: hidden;
+}
+
+.div-about-me {
+  overflow-x: hidden;
+  margin: 0 auto;
 }
 
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 1rem;
   text-align: center;
+  overflow-x: hidden;
+  margin: 0;
+  width: 90%;
 }
 
 .ultimate-div {
   font-family: monospace;
   font-weight: bolder;
+  width: 90%;
+  margin: 0 auto;
+  color: #00ff90;
 }
 
-/* Angelo Intro*/
-.h1-angelo {
-  animation: h1-angelo 2s infinite;
-}
-@keyframes h1-angelo {
-  25% {font-family: monospace;}
-  50% {font-family: 'Times New Roman', Times, serif;}
-  75% {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
-  100% {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+nav {
+  max-width: 100%;
+  background: #002200;
+  border-bottom: 2px solid #00ff90;
 }
 
+/* Angelo Intro */
 .img-angelo {
-  height: 230px; width: 230px;
+  width: 50%;
+  max-width: 230px;
+  height: auto;
   border-radius: 50%;
-  border: 7px solid blue;
-  animation: img-angelo 1s infinite;
-}
-@keyframes img-angelo {
-  50% {border: 7px dotted red;}
-  75% {border: 7px dashed yellow;}
-  100% {border: 7px double green;}
+  border: 3px solid #00ff90;
+  box-shadow: 0 0 20px #00ff90;
+  margin-bottom: 0;
 }
 
 /* About Me */
-.table {
-  border: 1px solid black !important;
+.first-table, .second-table {
+  margin: 0 auto;
+  width: auto;
+  max-width: 600px;
+  border: 2px solid #00ff90 !important;
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: #001100;
+  color: #00ff90;
+  margin-bottom: 2%;
+  border-collapse: collapse;
+  list-style-type: none;
 }
+
+.td-skills {
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.second-table td {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+table h5 {
+  margin-bottom: 0.5%;
+  font-weight: bold;
+  color: #00ff90;
+}
+
+table h5 {
+  padding: 1%;
+}
+
 .table1 {
-  background-color: pink !important;
+  background: linear-gradient(45deg, #004400, #002200) !important;
 }
 .table2 {
-  background-color: palegoldenrod !important;
+  background: linear-gradient(45deg, #003300, #001a00) !important;
 }
 .table3 {
-  background-color: palegreen !important;
+  background: linear-gradient(45deg, #005500, #002b00) !important;
 }
 .table4 {
-  background-color: paleturquoise !important;
+  background: linear-gradient(45deg, #006600, #003300) !important;
 }
 .table5 {
-  background-color: palevioletred !important;
+  background: linear-gradient(45deg, #007700, #004400) !important;
 }
 
 /* Modals */
 .modal-digart img {
-  width: 250px;
-  height: 250px;
+  width: 50%;
+  max-width: 230px;
+  height: auto;
   margin: 10px;
   border-radius: 12%;
+  border: 2px solid #00ff90;
+  background: #000;
 }
+
 .modal-ani img {
-  width: 310px;
-  height: 250px;
+  width: 50%;
+  max-width: 230px;
+  height: auto;
   margin: 10px;
   border-radius: 12%;
+  border: 2px solid #00ff90;
+  background: #000;
 }
+
 .modal-fed img, video {
-  width: 250px;
-  height: 200px;
+  width: 50%;
+  max-width: 230px;
+  height: auto;
   margin: 10px;
   border-radius: 12%;
+  border: 2px solid #00ff90;
+  background: #000;
+}
+
+.div-calltoact h3 {
+  margin-bottom: 0;
+  color: #00ff90;
 }
 
 /* Call to Action */
 .div-action button {
-  margin: 30px;
-  width: 15%;
-  height: 10%;
+  margin: 1.5%;
+  margin-top: 0;
+  margin-bottom: 1.5%;
+  width: auto;
+  max-width: 230px;
+  height: auto;
+  background: black;
+  border: 2px solid #00ff90;
+  color: #00ff90;
+  font-family: monospace;
 }
+
 .bt1 {
   animation: bt1 2s infinite;
 }
 @keyframes bt1 {
-  50% {background-color: darkred; color: white;}
+  50% {background-color: #003300; color: #00ff90;}
 }
+
 .bt2 {
   animation: bt2 2s infinite;
 }
 @keyframes bt2 {
-  50% {background-color: darkblue; color: white;}
+  50% {background-color: #004400; color: #00ff90;}
 }
+
 .bt3 {
   animation: bt3 2s infinite;
 }
 @keyframes bt3 {
-  50% {background-color: darkgreen; color: white;}
+  50% {background-color: #005500; color: #00ff90;}
+}
+
+iframe {
+  width: 30%;
+  height: 50%;
+  border-radius: 10%;
+  margin: 0 auto;
+  margin-bottom: 1%;
+  box-shadow: 0 0 20px #00ff90;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden
+  }
+
+  .div-action button {
+    width: auto;
+    max-width: 230px;
+  }
+  #root {
+    overflow-x: hidden;
+  }
+  iframe {
+    width: 50%;
+    height: 50%;
+  }
 }

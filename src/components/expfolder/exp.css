@@ -1,0 +1,89 @@
+.exp-h2 {
+    margin-top: 2rem;
+}
+.exp-h3 {
+    margin-bottom: 1%;
+}
+
+.exp-div {
+    margin-top: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.exp-div ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 0;
+    margin: 0;
+    border-radius: 10%;
+}
+.exp-div h5 {
+    padding: 3px;
+    margin-bottom: 0;
+}
+
+.exp-div h5:hover {
+    cursor: pointer;
+    text-shadow: 0 0 5px #00ff90, 0 0 10px #00ff90, 0 0 15px #00ff90;
+}
+
+.img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.img-wrap img {
+    margin: 0;
+    max-width: 30%;
+}
+
+.exp-wrapper p {
+    text-align: justify;
+}
+
+.aero-logo {
+    width: 15%;
+    height: auto;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+.no-padding-bottom {
+    padding-bottom: 0;
+}
+
+.webd-wrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+.webd-wrapper .webd-div-wrapper {
+    width: 50%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.exp-video {
+    box-shadow: 0 0 20px #00ff90;
+    border: 0;
+}
+.exp-video, .dl-wrap img {
+    width: 60%;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.dl-wrap img {
+    width: 47%;
+    max-width: 800px;
+    height: auto;
+}
+
+/* { outline: 3px solid red;}*/

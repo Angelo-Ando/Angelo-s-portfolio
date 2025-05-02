@@ -1,0 +1,43 @@
+nav {
+  height: auto;
+  width: auto;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  border: 3px solid #00ff90;
+  background-color: #001100;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+}
+
+nav > ul > li {
+  color: #00ff90;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #00ff90;
+  font-family: monospace;
+}
+
+ul a:hover {
+  color: #00ff90;
+  cursor: pointer;
+  text-shadow: 0 0 5px #00ff90, 0 0 10px #00ff90, 0 0 15px #00ff90;
+}
+
+ul a:active {
+  color: #003300;
+}
