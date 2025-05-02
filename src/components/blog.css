@@ -1,0 +1,52 @@
+
+
+.name-div {
+    margin-bottom: 3%;
+}
+
+img {
+    max-width: 50%;
+    max-height: 70%;
+    border-radius: 10%;
+    margin-bottom: 5%;
+}
+
+.div-days {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 3%;
+}
+
+.div-days div {
+    border: 3px solid #00ff90;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.div-days div:hover {
+    transform: translateY(-15px);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    color: #00ff90;
+    box-shadow: 0 0 20px #00ff90;
+    border: 3px solid #00ff90;;
+  }
+
+.carousel-wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-wrapper img {
+    box-shadow: 0 0 11px #00ff90;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .div-days p {
+        display: none;
+    }
+}

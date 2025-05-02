@@ -1,0 +1,57 @@
+
+.div-projects {
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+.project {
+    border: 2px solid #00ff90;
+    width: 30%;
+    height: 300px;
+    max-height: 200px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background-color: #00ff90;
+}
+.repository {
+    text-decoration: none;
+    color: black;
+}
+
+.div-projects a:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border: 2px solid aquamarine;;
+    background-color: aquamarine;
+    box-shadow: 0 0 20px #00ff90;
+    order: 2px solid black;
+}
+.project-h3 {
+    margin-top: 1rem;
+}
+
+/*images of .project-img are transparent*/
+.project-img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 3%;
+}
+.repository:hover {
+    cursor: pointer;
+    color: orange;
+}
+.bottom-projects {
+    margin-bottom: 4.5rem;
+}
+
+@media (max-width: 768px) {
+    .bottom-projects {
+        margin-bottom: 2rem;
+    }
+}
