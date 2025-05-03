@@ -45,7 +45,7 @@ export default function Day1() {
                         <img src={rizalPark2} />
                         </div>
                     </Carousel>    
-                    <div>
+                    <div className="blog-p">
                         <p>At 2pm in the afternoon. I set foot on Rizal Park for the first time. The site was majestic but too hot and sunny. And because it was too hot, I was unable to take more photos. The most fascinating thing about Rizal Park for me is the stars on the shrine are made out of real gold.</p>
                     </div>
                 </div>
@@ -104,14 +104,14 @@ export default function Day1() {
                             <img src={fortSantiago14}/>
                         </div>
                     </Carousel>
-                    <div>
+                    <div className="blog-p">
                         <p>At 4pm, we visited the Fort Santiago and it was the most explorable place I have been in. It was wide, open and breathtaking. There was so much to see and learn, especially in the Dungeons. The tight undeground tunnel and statues gave me the chills.</p>
                     </div>
                 </div>
             </div>
 
             
-            <div className="div-wrapper">
+            <div className="div-wrapper last-wrapper">
                 <h2>SM Mall of Asia</h2>
 
                 <div className="div-container">
@@ -125,10 +125,8 @@ export default function Day1() {
                             <img src={sm2} />
                         </div>
                     </Carousel>    
-                    <div>
-                        <div>
-                            <p>At 5pm, we went to the SM Mall of Asia. It wasn't my first time going there, I've been there before, but I was all turned around. I wasn't able to get that much photos as I was too busy getting lost. I ended up reaching the roof of the mall and getting something to eat, a grilled cheese sandwich and a Pinkberry yogurt with five different toppings.</p>
-                        </div>
+                    <div className="blog-p">
+                        <p>At 5pm, we went to the SM Mall of Asia. It wasn't my first time going there, I've been there before, but I was all turned around. I wasn't able to get that much photos as I was too busy getting lost. I ended up reaching the roof of the mall and getting something to eat, a grilled cheese sandwich and a Pinkberry yogurt with five different toppings.</p>
                     </div>
                 </div>
             </div>

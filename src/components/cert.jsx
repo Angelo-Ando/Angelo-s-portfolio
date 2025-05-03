@@ -14,9 +14,9 @@ export default function Cert() {
 
             <div className="ultimate-cert-wrapper">
                 <div className="cert-wrapper">
-                    <h3 className="cert-h3">Responsive Web Design</h3>
+                    <h3 className="cert-h3 rwd-h3">Responsive Web Design</h3>
                     <div className="div-certs">
-                        <div className="cert-img-wrapper">
+                        <div className="cert-img-wrapper rwd-wrap">
                             <img src={cert1}/>
                         </div>
                         <div className="cert-details">

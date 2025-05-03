@@ -8,7 +8,7 @@ import cap5 from './expimg/cap5.jpg';
 
 export default function CAP() {
     return (
-        <div>
+        <div className="entire-exp">
 
             <div className="exp-h2"> <h2>CAPSTONE</h2> </div>
 

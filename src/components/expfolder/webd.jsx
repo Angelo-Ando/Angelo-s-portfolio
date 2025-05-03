@@ -7,14 +7,14 @@ import aqua2 from './expimg/aqua2.mp4';
 
 export default function WEBD() {
     return (
-        <div>
+        <div className="entire-exp">
 
             <div className="exp-h2"> <h2>WEB DESIGN</h2> </div>
 
             <div className="exp-wrapper webd-wrapper">
 
                 <div className="webd-div-wrapper">
-                    <div className="exp-h3"> <h3>Frontend Designer of Dungeon Loots</h3> </div>
+                    <div className="exp-h3 exp-dl"> <h3>Frontend Designer of Dungeon Loots</h3> </div>
 
                     <div className="img-wrap">
                         <img src={webd0} className="aero-logo"/>
@@ -43,7 +43,7 @@ export default function WEBD() {
                 </div>
 
                 <div className="webd-div-wrapper">
-                    <div className="exp-h3"> <h3>Frontend Designer of Aquafy</h3> </div>
+                    <div className="exp-h3 exp-aqua"> <h3>Frontend Designer of Aquafy</h3> </div>
 
                     <div className="img-wrap"><img src={aqua1} className="aero-logo"/></div>
 

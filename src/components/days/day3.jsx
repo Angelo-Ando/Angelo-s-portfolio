@@ -103,7 +103,7 @@ export default function Day3() {
                         </div>
                         
                     </Carousel>    
-                    <div>
+                    <div className="blog-p">
                         <p>At 10am, we visited the National Museum of Natural History and it was the most wonderful place I have ever been in. The architecture of the place was just mesmerizing. Me, along with my friends and a professor, scaled the building checking out all the exhibits from animal bones to taxidermies and to a staue of Lolong. Once we made it to the last floor, we hoped to ride the elevator back down to the ground floor. Unfortunately the elevator was only to be used to go up, so we had to go back down on foot. We weren't able to use the elevator after returning.</p>
                     </div>
                 </div>
@@ -113,18 +113,18 @@ export default function Day3() {
                 <h2>Museo ni Manuel Quezon</h2>
 
                 <div className="div-container">
-                    <Carousel className="div-carousel" showThumbs={false} infiniteLoop autoPlay>
+                    <Carousel className="div-carousel quezon-carousel" showThumbs={false} infiniteLoop autoPlay>
 
                         <div className="img-tall">
                             <img src={q1} />
                         </div>
 
-                        <div className="img-wide">
+                        <div className="img-wide dual-wide lower-marg">
                             <img src={q10}/>
                             <img src={q11}/>
                         </div>
 
-                        <div className="img-wide">
+                        <div className="img-wide dual-wide">
                             <img src={q9}/>
                             <img src={q2_1}/>
                         </div>
@@ -162,38 +162,38 @@ export default function Day3() {
                         </div>
 
                     </Carousel>    
-                    <div>
+                    <div className="blog-p">
                         <p>At 12nn to 1pm, we visited the Museum of Manuel L. Quezon. There I met the historical artifacts and relics related to our former president. I didn't just saw displays, I saw stories of what made him a hero to the Philippines. I saw dreams and inspirations. After that, we visited his burial site and again I was impressed by architecture.</p>
                     </div>
                 </div>
             </div>
 
-            <div className="div-wrapper">
+            <div className="div-wrapper last-wrapper">
                 <h2>Museo ng Pampangulong Sasakyan</h2>
 
                 <div className="div-container">
-                    <Carousel className="div-carousel" showThumbs={false} infiniteLoop autoPlay>
+                    <Carousel className="div-carousel car-carousel" showThumbs={false} infiniteLoop autoPlay>
 
-                        <div className="img-single-small">
+                        <div className="img-single-small lower-marg">
                             <img src={r1}/>
                         </div>
 
-                        <div className="img-wide">
+                        <div className="img-wide dual-wide dec-marg">
                             <img src={r3}/>
                             <img src={r2}/>
                         </div>
 
-                        <div className="img-wide">
+                        <div className="img-wide dual-wide dec-marg">
                             <img src={r4}/>
                             <img src={r9}/>
                         </div>
 
-                        <div className="img-wide">
+                        <div className="img-wide dual-wide dec-marg">
                             <img src={r10}/>
                             <img src={r11}/>
                         </div>
 
-                        <div className="img-wide">
+                        <div className="img-wide dual-wide dec-marg">
                             <img src={r12}/>
                             <img src={r13}/>
                         </div>
@@ -211,7 +211,7 @@ export default function Day3() {
                         </div>
 
                     </Carousel>    
-                    <div>
+                    <div className="blog-p">
                         <p>Our last trip of the day, we visisted the Presidential Car Museum where the vehicles of the Philippines' former presidents are preserved for exhibition, from carriages to convoys to modern day cars. There I noticed all of the cars were black. They were black to appear both powerful and elegant, to instill authority and a sense of fashion into the citizens of the Philippines. The best part of the museum was their dog employee.</p>
                     </div>
                 </div>

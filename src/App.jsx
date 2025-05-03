@@ -76,49 +76,63 @@ function Home() {
         </div>
 
         {/* MODALS */}
-        <div className="modal fade modal-xl modal-digart" id="digart-modal" tabIndex="-1" aria-hidden="true">
-          <div className="modal-dialog">
-            <div className="modal-content">
-              <div className="modal-header"><h5 className="modal-title">Digital Art Examples</h5></div>
-              <div className="modal-body">
-                <img src={hellImage} />
-                <img src={loveImage} />
-                <img src={tigerImage} />
-                <img src={kidsImage} />
-                <img src={turtleImage} />
-                <img src={rustImage} />
-                <img src={darkImage} />
-              </div>
-            </div>
-          </div>
-        </div>
+        
+        <div className="modal-wrapper">
 
-        <div className="modal fade modal-lg modal-ani" id="ani-modal" tabIndex="-1" aria-hidden="true">
-          <div className="modal-dialog">
-            <div className="modal-content">
-              <div className="modal-header"><h5 className="modal-title">Animations</h5></div>
-              <div className="modal-body">
-                <img src={blackGif} />
-                <img src={danceGif} />
-                <img src={fnfGif} />
+          <div className="modal fade modal-xl modal-digart" id="digart-modal" tabIndex="-1" aria-hidden="true">
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                    <h5 className="modal-title">Digital Art Examples</h5>
+                    <button className="x-btn" data-bs-dismiss="modal" aria-label="Close"><h4>X</h4></button>
+                </div>
+                <div className="modal-body">
+                  <img src={hellImage} />
+                  <img src={loveImage} />
+                  <img src={tigerImage} />
+                  <img src={kidsImage} />
+                  <img src={turtleImage} />
+                  <img src={rustImage} />
+                  <img src={darkImage} />
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="modal fade modal-lg modal-fed" id="fed-modal" tabIndex="-1" aria-hidden="true">
-          <div className="modal-dialog">
-            <div className="modal-content">
-              <div className="modal-header"><h5 className="modal-title">Front-End Designs</h5></div>
-              <div className="modal-body">
-                <img src={dungeonImage} />
-                <video controls>
-                  <source src={aquafyVid} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+          <div className="modal fade modal-lg modal-ani" id="ani-modal" tabIndex="-1" aria-hidden="true">
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h5 className="modal-title">Animations</h5>
+                  <button className="x-btn" data-bs-dismiss="modal" aria-label="Close"><h4>X</h4></button>
+                </div>
+                <div className="modal-body">
+                  <img src={blackGif} />
+                  <img src={danceGif} />
+                  <img src={fnfGif} />
+                </div>
               </div>
             </div>
           </div>
+
+          <div className="modal fade modal-lg modal-fed" id="fed-modal" tabIndex="-1" aria-hidden="true">
+            <div className="modal-dialog">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h5 className="modal-title">Front-End Designs</h5>
+                  <button className="x-btn" data-bs-dismiss="modal" aria-label="Close"><h4>X</h4></button>
+                </div>
+                <div className="modal-body frntend-modal-content">
+                  <img src={dungeonImage} />
+                  <video controls>
+                    <source src={aquafyVid} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
         <div className="table-wrapper">
