@@ -6,7 +6,7 @@ import se4 from './expimg/se4.png';
 
 export default function SE() {
     return (
-        <div>
+        <div className="entire-exp">
 
             <div className="exp-h2"> <h2>SOFTWARE ENGINEERING</h2> </div>
 
@@ -61,6 +61,7 @@ export default function SE() {
                     
                 </div>
             </div>  
+
         </div>
     );
 }

@@ -51,7 +51,7 @@ export default function Day2() {
                         </div>
 
                     </Carousel>    
-                    <div>
+                    <div className="blog-p">
                         <p>Early in the morning, we visited the 'Subic Bay Exhibition and Convention Center' or SBECC where we witnessed the beautiful oil paiting murals of the Philippines' rich history from the pre-colonial period to the modern times.</p>
                     </div>
                 </div>
@@ -63,22 +63,22 @@ export default function Day2() {
                 <div className="div-container">
                     <Carousel className="div-carousel" showThumbs={false} infiniteLoop autoPlay>
 
-                        <div className="sbp-1">
+                        <div className="img-tall sbp-div dual-tall">
                             <img src={sb8}/>
                             <img src={sb7}/>
                         </div>
 
-                        <div className="sbp-1">
+                        <div className="img-tall sbp-div dual-tall">
                             <img src={sb9}/>
                             <img src={sb10}/>
                         </div>
 
-                        <div className="img-tall">
+                        <div className="img-tall sbp-div">
                             <img src={sb11}/>
                         </div>
 
                     </Carousel>    
-                    <div>
+                    <div className="blog-p">
                         <p>From 9am to 10am, we visited the control towerenter of Subic Bay Port where were taught how ships are aided from control towers through radios, radars and etc. It was all complicated stuff that I was honestly astonished with the advancements. And because we were by the beach, it was a great view on the rooftop.</p>
                     </div>
                 </div>
@@ -101,14 +101,14 @@ export default function Day2() {
                         </div>
 
                     </Carousel>    
-                    <div>
+                    <div className="blog-p">
                         <p>At 11am, we visited the police station of Subic Bay where we met the very amusing chief director. There I realized Subic was a gated community with barely any pedestrians. It was a suprise to me how there were no jeepneys or tricycles, and the workers of actually lived outside of Subic. More suprisingly was the fact that people there were kind of rare yet crime still occurs which is why the police station exists.</p>
                     </div>
                 </div>
                 
             </div>
 
-            <div className="div-wrapper">
+            <div className="div-wrapper last-wrapper">
                 <h2>Break Time in Subic</h2>
 
                 <div className="div-container">
@@ -125,7 +125,7 @@ export default function Day2() {
                         </div>
 
                     </Carousel>    
-                    <div>
+                    <div className="blog-p">
                         <p>After visiting various companies and a long ride, we settled by a beach to have lunch, watch the shore and purchase some souvenirs. It was really hot at that time. Then we visited the Puregold Duty Free where I bought goods that were priced with dollars instead of pesos. I spent minutes looking for products that I could purchase because some were just hurt my wallet. Luckily I found a straberry soda and pop sticks.</p>
                     </div>
                 </div>

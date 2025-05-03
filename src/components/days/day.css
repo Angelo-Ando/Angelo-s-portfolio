@@ -5,6 +5,7 @@
     align-items: center;
     padding-top: 1rem;
     border: 1px solid #00ff90;
+    border-radius: 5%;
 }
 .div-wrapper{
     margin-bottom: 1rem;
@@ -43,6 +44,13 @@ img-single-small is one div that contains a 2048x1536 image and a paragraph
     margin-right: 2rem;
 }
 
+.with-p {
+    display: block;
+    max-width: 65%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
 .img-single-large {
     padding-top: 5%;
 }
@@ -54,7 +62,7 @@ img-single-small is one div that contains a 2048x1536 image and a paragraph
     padding-top: 4%;
 }
 .img-single-small img {
-    max-width: 60%;
+    max-width: 50%;
 }
 
 .img-single-wide {
@@ -64,14 +72,9 @@ img-single-small is one div that contains a 2048x1536 image and a paragraph
     max-width: 90%;
 }
 
-.sbp-1{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+.feeling-ill {
+    margin-bottom: 3rem;
 }
-
 
 @media (max-width: 768px) {
     .fortSantiago-wrapper .fortSantiago-carousel{
@@ -97,5 +100,76 @@ img-single-small is one div that contains a 2048x1536 image and a paragraph
     }
     .fortSantiago-wrapper .img-single-small p{
         font-size: medium;
+    }
+
+    .div-container p {
+        text-align: justify;
+    }
+    .blog-p {
+        padding: 3%;
+        padding-top: 0;
+    }
+    .blog-p p {
+        font-size: smaller;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .day7-carousel p {
+        text-align: center;
+        font-size: x-small;
+    }
+
+}
+
+@media (max-width: 431px) {
+    .last-wrapper {
+        margin-bottom: 20rem;
+    }
+    .div-wrapper h2 {
+        font-size: large;
+    }
+
+    .sbp-div {
+        margin: auto;
+        max-width: 80%
+    }
+
+    .nh1-carousel img, .quezon-carousel img, .hytec-carousel img {
+        margin-top: 0.5rem;
+    }
+    .nh1-carousel div, .quezon-carousel div, .car-carousel div, .hytec-carousel div, .mrt-carousel div, .mmda-carousel div {
+        margin: auto;
+        margin-top: 0;
+    }
+    .nh1-carousel .img-wide, .quezon-carousel .img-wide, .hytec-carousel .img-wide {
+        margin-top: 10%;
+    }
+    .dual-wide img {
+        max-width: 40%;
+    }
+    .lower-marg img{
+        margin-top: 1rem;
+    }
+
+    .dec-marg img{
+        margin-top: 4rem;
+    }
+
+    .hytec-lowmarg img, .mrt-lowmarg img {
+        margin-top: 1.5rem;
+    }
+
+    .dual-too-tall img {
+        max-width: 40%;
+    }
+
+    .blog-p {
+        padding: 3%;
+        padding-top: 0;
+    }
+    .blog-p p {
+        font-size: smaller;
+        margin-bottom: 0;
+        margin-top: 0;
     }
 }

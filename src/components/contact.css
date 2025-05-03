@@ -40,6 +40,16 @@
         width: 50%;
     }
     .ultimate-contact-div {
-        margin-bottom: 5rem;
+        margin-bottom: 15rem;
+    }
+}
+
+@media (max-width: 431px) {
+    .contact-div {
+        width: 70%;
+    }
+
+    .contacts-wrapper {
+        margin-bottom: 15rem;
     }
 }

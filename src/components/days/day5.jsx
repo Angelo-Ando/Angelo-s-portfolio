@@ -26,7 +26,7 @@ export default function Day5() {
             <div className="div-wrapper">
                 <h2>Manila Metro Rail Transit System</h2>
                     <div className="div-container">
-                        <Carousel className="div-carousel" showThumbs={false} infiniteLoop autoPlay>
+                        <Carousel className="div-carousel mrt-carousel" showThumbs={false} infiniteLoop autoPlay>
 
                             <div className="img-single-large">
                                 <img src={mrt1}/>
@@ -48,7 +48,7 @@ export default function Day5() {
                                 <img src={mrt7}/>
                             </div>
 
-                            <div className="img-tall">
+                            <div className="img-tall dual-too-tall mrt-lowmarg">
                                 <img src={mrt8}/>
                                 <img src={mrt9}/>
                             </div>
@@ -74,7 +74,7 @@ export default function Day5() {
                             </div>
 
                         </Carousel>    
-                    <div>
+                    <div className="blog-p">
                         <p>
                             Between 9am and 12nn, we were at the Metro Rail Transit or MRT where we took a tour in the depot.  
                             It was large and had a lot of precautions as the place had a lot of things that could cause fatalities. 
@@ -85,10 +85,10 @@ export default function Day5() {
                 </div>
             </div>
 
-            <div className="div-wrapper">
+            <div className="div-wrapper last-wrapper">
                 <h2>Metropolitan Manila Development Authority</h2>
                     <div className="div-container">
-                        <Carousel className="div-carousel" showThumbs={false} infiniteLoop autoPlay>
+                        <Carousel className="div-carousel mmda-carousel" showThumbs={false} infiniteLoop autoPlay>
 
                             <div className="img-tall">
                                 <img src={mmda1}/>
@@ -107,7 +107,7 @@ export default function Day5() {
                             </div>
 
                         </Carousel>    
-                    <div>
+                    <div className="blog-p">
                         <p>
                             Then in the afternoon, we visited the Metropolitan Manila Development Authority where we as a class 
                             were amazed by the capabilities of the company's security cameras. Every corner of Manila had cameras 

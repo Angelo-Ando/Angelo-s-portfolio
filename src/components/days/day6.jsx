@@ -84,7 +84,7 @@ export default function Day6() {
                             </div>
 
                         </Carousel>    
-                    <div>
+                    <div className="blog-p">
                         <p>
                             At 5am in the morning, our tour bus arrived to the Strawberry Farms of Baguio. I was suprised at how 
                             cold Baguio was that I had to wear my hoodie to explore the place. Unfortunately we didn't go 
@@ -151,7 +151,7 @@ export default function Day6() {
                             </div>
 
                         </Carousel>    
-                    <div>
+                    <div className="blog-p">
                         <p>
                             At 7am, we arrived at the Bell Church. I believe it was the place with the most stairs. 
                             Trekking it was the most tiring, my knees and feet hurt every step I took, but it was worth it as it
@@ -176,7 +176,7 @@ export default function Day6() {
                             </div>
 
                         </Carousel>    
-                    <div>
+                    <div className="blog-p">
                         <p>
                             The Mansion was the shortest tour we took. A lot of us anticipated to enter the interior of the 
                             Mansion. Sadly we could only reach the entrance. It only took us within an hour to check out the 
@@ -216,7 +216,7 @@ export default function Day6() {
                             </div>
 
                         </Carousel>    
-                    <div>
+                    <div className="blog-p">
                         <p>
                             At 1pm, we visited the Philippine Military Academy or PMA. It was the hottest place I visited in 
                             Baguio. Being there, I appreciated the servitude of our Philippine soldiers more. I saluted to 
@@ -226,7 +226,7 @@ export default function Day6() {
                 </div>
             </div>
 
-            <div className="div-wrapper">
+            <div className="div-wrapper last-wrapper">
                 <h2>Mines View</h2>
                     <div className="div-container">
                         <Carousel className="div-carousel" showThumbs={false} infiniteLoop autoPlay>
@@ -253,7 +253,7 @@ export default function Day6() {
                             </div>
 
                         </Carousel>    
-                    <div>
+                    <div className="blog-p">
                         <p>
                             At 3pm, we visited the glorious Mines View, a park where I enjoyed the culture of Baguio by wearing an 
                             outfit of the Igorots. It had a nice view and aesthetic but what stood out for was that Mines View was 

@@ -41,3 +41,15 @@ ul a:hover {
 ul a:active {
   color: #003300;
 }
+
+@media (max-width: 768px) {
+  nav {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 431px) {
+  nav {
+      margin-top: 1rem;
+  }
+}

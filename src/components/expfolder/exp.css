@@ -63,12 +63,12 @@
     display: flex;
     gap: 1rem;
 }
-
 .webd-wrapper .webd-div-wrapper {
     width: 50%;
     margin-bottom: 1rem;
     padding: 1rem;
 }
+
 .exp-video {
     box-shadow: 0 0 20px #00ff90;
     border: 0;
@@ -86,4 +86,43 @@
     height: auto;
 }
 
-/* { outline: 3px solid red;}*/
+@media (max-width: 431px) {
+    .exp-div ul {
+        gap: 1rem;
+    }
+    .exp-div h5 {
+        font-size: large;
+        padding: 0;
+    }
+
+    .exp-wrapper img, .exp-wrapper video {
+    display: none;
+    }
+    .exp-wrapper p {
+        font-size: smaller;
+    }
+    .exp-wrapper .img-wrap {
+        margin-bottom: 0;
+    }
+
+    .webd-wrapper {
+        gap: 0;
+    }
+    .webd-wrapper .webd-div-wrapper {
+        margin-bottom: 0;
+        padding: 0.5rem;
+    }
+    .webd-wrapper h3 {
+        font-size: larger;
+    }
+    .exp-dl {
+        text-align: left;
+    }
+    .exp-aqua {
+        text-align: right;
+    }
+
+    .entire-exp {
+        margin-bottom: 18.5rem;
+    }
+}

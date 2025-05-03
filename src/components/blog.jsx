@@ -8,7 +8,7 @@ import q6 from '/src/img/day3img/q6.jpg';
 import h9 from '/src/img/day4img/h9.jpg';
 import mrt3 from '/src/img/day5img/mrt3.jpg';
 import mv8 from '/src/img/day6img/mv8.jpg';
-import sick from '/src/img/day6img/sick.jpg';
+import jaden from '/src/img/day6img/jaden.jpg';
 
 import Day1 from './days/day1';
 import Day2 from './days/day2';
@@ -84,9 +84,9 @@ export default function Blog() {
 
                 <div className="day-seven" onClick={() => setActiveDay(7)}>
                     <h5>DAY SEVEN</h5>
-                    <img src={sick} alt="Day Seven" />
+                    <img src={jaden} alt="Day Seven" />
                     <p>April 13, 2025</p>
-                    <p>My Sick Day</p>
+                    <p>Baguio 2</p>
                 </div>
             </div>
 
