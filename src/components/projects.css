@@ -68,11 +68,11 @@
     }
 
     .project h5 {
-        font-size: smaller;
+        font-size: x-small;
         font-weight: bold;
     }
     .repository {
-        font-size: smaller;
+        font-size: x-small;
     }
     
     .project-img {
