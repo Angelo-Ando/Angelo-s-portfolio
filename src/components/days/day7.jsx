@@ -19,12 +19,12 @@ export default function Day7() {
                         <Carousel className="div-carousel day7-carousel" showThumbs={false} infiniteLoop autoPlay>
                             <div className="img-single-small">
                                 <img src={jason}/>
-                                <p><i>This image belongs to Sir Jason</i>.</p>
+                                <p><i>Credits to Sir Jason</i>.</p>
                             </div>
 
                             <div className="img-tall with-p">
                             <img src={jaden} />
-                            <p><i>This image belongs to J.L Mosot</i>.</p>
+                            <p><i>Credits to J.L Mosot</i>.</p>
                             </div>
                         </Carousel>
                         <div className="blog-p">
